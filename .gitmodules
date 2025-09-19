@@ -1,0 +1,3 @@
+[submodule "slm_eval/models/src_kimi_audio/kimia_infer/models/tokenizer/glm4"]
+	path = slm_eval/models/src_kimi_audio/kimia_infer/models/tokenizer/glm4
+	url = https://github.com/THUDM/GLM-4-Voice.git

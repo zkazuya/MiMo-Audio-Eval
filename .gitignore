@@ -1,0 +1,13 @@
+data/
+data
+logs/
+*log*
+*.log
+*.log.*
+*.log.*.*
+*.log.*.*.*
+*.log.*.*.*.*
+*.log.*.*.*.*.*
+*pyc*
+__pycache__/
+*.json
