@@ -26,7 +26,7 @@
   &nbsp;|
   <a href="https://github.com/XiaomiMiMo/MiMo-Audio/blob/main/MiMo-Audio-Technical-Report.pdf" target="_blank">📄 Paper</a>
   &nbsp;|
-  <a href="https://XiaomiMiMo.github.io/MiMo-Audio" target="_blank">📰 Blog</a>
+  <a href="https://xiaomimimo.github.io/MiMo-Audio-Demo" target="_blank">📰 Blog</a>
   &nbsp;|
   <a href="https://huggingface.co/spaces/XiaomiMiMo/mimo_audio_chat" target="_blank">🔥 Online Demo</a>
   &nbsp;|
