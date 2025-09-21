@@ -8,6 +8,7 @@ from typing import Literal, Any
 from pydantic import BaseModel
 from abc import ABC, abstractmethod
 from openai import OpenAI
+import whisper
 
 
 class OpenAIModel:

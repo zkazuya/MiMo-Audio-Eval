@@ -13,7 +13,6 @@ import requests
 import json
 import re
 from datasets import Audio
-import pdb
 import random
 from slm_eval.models.step_audio2 import StepAudio2Model
 

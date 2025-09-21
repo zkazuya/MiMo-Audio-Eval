@@ -973,7 +973,7 @@ class MimoAudioModel:
                     text_zeroemb_idx=self.empty_token,
                 ),
             ]
-            if assistant_prompt_audio_token:
+            if assistant_prompt_audio_token is not None:
                 lm_prompt += [
                     InputSegment(
                         text=f"Your voice should be:",

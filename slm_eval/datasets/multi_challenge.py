@@ -3,7 +3,6 @@ import torch
 from datasets import load_dataset, Audio
 import os
 import json
-import pdb
 
 
 class MultiChallengeDataset:

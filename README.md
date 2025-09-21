@@ -87,22 +87,37 @@ The MiMo-Audio-Eval toolkit supports a comprehensive set of datasets, tasks, and
 
 To get started with the MiMo-Audio-Eval toolkit, follow the instructions below to set up the environment and install the required dependencies.
 
-### 1. Clone the repository:
+### Prerequisites (Linux)
+
+* Python 3.12
+* CUDA >= 12.0
+
+### Installation:
 
 ```bash
 git clone --recurse-submodules https://github.com/XiaomiMiMo/MiMo-Audio-Eval
 cd MiMo-Audio-Eval
+pip install -r requirements.txt
+pip install flash-attn==2.7.4.post1
+pip install -e .
 ```
 
-### 2. Install the required packages:
+> \[!Note]
+> If the compilation of flash-attn takes too long, you can download the precompiled wheel and install it manually:
+>
+> * [Download Precompiled Wheel](https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl)
+>
+> ```sh
+> pip install /path/to/flash_attn-2.7.4.post1+cu12torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl
+> ```
+
+### Download evaluation data:
 
 ```bash
-pip install -r requirements.txt
-pip install -e .
-pip install flash-attn --no-build-isolation
+python download_data.py
 ```
 
-### 3. (Optional) Download required models:
+### (Optional) Download required models:
 
 #### For Voice Conversion evaluation:
 
@@ -115,7 +130,6 @@ Export your OpenAI API Key:
 ```bash
 export OPENAI_API_KEY="your_openai_api_key_here"
 ```
-
 
 ## Usage
 

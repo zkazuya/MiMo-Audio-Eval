@@ -121,7 +121,7 @@ class BigBenchAudioEvaluator:
                 response = self.model.speech2text_dialogue_sft(audio)
             elif self.eval_mode == "s2s":
                 output_audio_path = output_dir / "wav" / f"{item['sample_id']}.wav"
-                response = self.model.spoken_dialogue_sft(audio, output_audio_path=str(output_audio_path), prompt_speech=prompt_speech_path)
+                response = self.model.spoken_dialogue_sft(audio, output_audio_path=str(output_audio_path), prompt_speech=str(self.prompt_speech_path))
                 
             if response is not None:
                 print(f"Category: {category}")

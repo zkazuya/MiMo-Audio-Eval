@@ -161,7 +161,7 @@ class DynamicSuperbS2SEvaluator:
                 else:
                     audio_np = audio
                 audio_np = audio_np.astype(np.float32)
-                torchaudio.save(src_path, torch.from_numpy(audio_np).unsqueeze(0), self.sample_rate)
+                torchaudio.save(str(src_path), torch.from_numpy(audio_np).unsqueeze(0), self.sample_rate)
             
             prompt_info = {
                 "target_file": data["file"],
