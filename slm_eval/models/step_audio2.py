@@ -13,7 +13,7 @@ from pathlib import Path
 from .src_step_audio.stepaudio2 import StepAudio2, StepAudio2Base
 from .src_step_audio.token2wav import Token2wav
 
-sys.path.append(Path(__file__).parent / "src_step_audio")
+sys.path.append(str(Path(__file__).parent / "src_step_audio"))
 PROMPT_WAV=Path(__file__).parent / "src_step_audio/assets/default_female.wav"
 
 StepAudio_MODEL_PATH = {

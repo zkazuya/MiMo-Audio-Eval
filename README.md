@@ -102,6 +102,12 @@ pip install flash-attn==2.7.4.post1
 pip install -e .
 ```
 
+**Note: For evaluating Qwen2.5-Omni, please install the following dependencies:**
+
+```bash
+pip install transformers==4.52.3 qwen-omni-utils[decord]
+```
+
 > \[!Note]
 > If the compilation of flash-attn takes too long, you can download the precompiled wheel and install it manually:
 >
